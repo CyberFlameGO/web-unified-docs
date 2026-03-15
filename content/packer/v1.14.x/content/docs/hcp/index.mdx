@@ -43,10 +43,10 @@ You must set authentication environment variables to connect to HCP Packer, you 
 
 For client ID and secret, you set the following environemnt variables
 
-- `HCP_CLIENT_ID`          - The HCP client ID of a HashiCorp Cloud Platform service principle that Packer can use to
+- `HCP_CLIENT_ID`          - The HCP client ID of a HashiCorp Cloud Platform service principal that Packer can use to
 authenticate to an HCP Packer Registry.
 
-- `HCP_CLIENT_SECRET`      - The HCP client secret of the HashiCorp Cloud Platform service principle that Packer
+- `HCP_CLIENT_SECRET`      - The HCP client secret of the HashiCorp Cloud Platform service principal that Packer
 can use to authenticate to an HCP Packer Registry.
 
 For certificate based auth simply specify the location of the valid HCP certificate file in the `HCP_CRED_FILE` environment variable, or place it in the default location for the HCP SDK, `~/.config/hcp/cred_file.json`
